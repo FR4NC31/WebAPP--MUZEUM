@@ -1,0 +1,38 @@
+.circle1{
+    width: 364px;
+    height: 326px;
+    background-color: #942426;
+    border-radius: 1600px;
+    filter: blur(140px);
+    margin-top: -140px;
+    margin-left: 1000px;
+}
+.circle2{
+    width: 364px;
+    height: 326px;
+    background-color: black;
+    border-radius: 1600px;
+    filter: blur(140px);
+    margin-top: -400px;
+    left: 1350px;
+    position: absolute;
+}
+
+.circle3{
+    width: 364px;
+    height: 326px;
+    background-color: black;
+    border-radius: 1600px;
+    filter: blur(140px);
+    margin-top: 400px;
+    left: 150px;
+    position: absolute;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 200px;
+}

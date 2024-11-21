@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+.emailform{
+    width: 368px;
+    height: 279px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 250px;
+    font-family: Poppins;
+}
+
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #958A8A;
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: transparent;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+input:focus{
+    outline: none;
+}
+
+.email{
+    margin-left: 30px;
+    margin-top: 35px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.password{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 110px;
+    font-size: 20px;
+}
+
+.eye{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 137px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 19px;
+}
+
+.emailInput{
+    margin-top: 60px;
+}
+
+.login{
+    background: #A35656;
+    color: #FEFAE0;
+    width: 316px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 190px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.or{
+    color: black;
+    margin-top: 245px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.register{
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}

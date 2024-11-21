@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+.signupform{
+    width: 368px;
+    height: 409px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    margin-top: 250px;
+    font-family: Poppins;
+}
+
+.signup-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #958A8A;
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 27px;
+    background: transparent;
+    font-size: 15px;
+    font-family: Poppins;
+    /* opacity: 0; */
+}
+
+input:focus{
+    outline: none;
+}
+
+.signup-username{
+    margin-left: 30px;
+    /* margin-top: px; */
+    position: absolute;
+    font-size: 20px;
+}
+
+.signup-email{
+    margin-left: 30px;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.signup-password{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 155px;
+    font-size: 20px;
+}
+
+.signup-confirmPassword{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 235px;
+    font-size: 20px;
+}
+
+.signup-eye{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 137px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 19px;
+}
+
+.emailInput{
+    margin-top: 60px;
+}
+
+.signup-submit{
+    background: #A35656;
+    color: #FEFAE0;
+    width: 316px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 320px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.register{
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.signup-eye1{
+    border: none;
+    background: transparent;
+    font-size: 19px;
+    margin-left: 305px;
+    margin-top: 192px;
+    position: absolute;
+}
+
+.signup-eye2{
+    border: none;
+    background: transparent;
+    font-size: 19px;
+    margin-left: 305px;
+    margin-top: 271px;
+    position: absolute;
+}
+
+.signup-or{
+    color: black;
+    margin-top: 375px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.signup-register{
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
