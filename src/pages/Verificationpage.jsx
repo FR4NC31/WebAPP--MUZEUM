@@ -1,9 +1,9 @@
-import React from 'react'
+import Verify from '../layout/verifyLayout'
 
 function Verificationpage() {
   return (
     <>
-
+      <Verify />
     </>
   )
 }

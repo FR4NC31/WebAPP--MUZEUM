@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../../../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url('../../../assets/fonts//PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+.containerVerify{
+    background: #000;
+    width: 994px;
+    height: 675px;
+    border-radius: 15px;
+    backdrop-filter: box-shadow(0px 4px 4px rgba(20px, 20px, 20px, 0.25));
+    margin-top: -0px;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+.logo{
+    position: absolute;
+    color: #FEFAE0;
+    margin-top: 150px;
+    margin-left: 460px;
+    font-family: Playfair Display;
+}
+
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 380px;
+    color: #FEFAE0;
+    margin-top: 200px;
+    position: absolute;
+}

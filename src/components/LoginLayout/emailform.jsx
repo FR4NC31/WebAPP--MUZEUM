@@ -1,4 +1,4 @@
-import '../styles/emailform.css';
+import './styles/emailform.css';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 

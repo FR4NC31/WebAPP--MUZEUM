@@ -1,4 +1,4 @@
-import '../styles/circle.css'
+import './styles/circle.css'
 
 function circle() {
   return (

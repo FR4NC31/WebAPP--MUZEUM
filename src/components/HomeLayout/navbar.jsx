@@ -1,4 +1,4 @@
-import '../styles/navbat.css'
+import './styles/navbat.css'
 import { BsBell } from "react-icons/bs";
 import { FaAngleDown } from "react-icons/fa6";
 import { FaMagnifyingGlass } from "react-icons/fa6";

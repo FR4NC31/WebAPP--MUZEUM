@@ -1,4 +1,4 @@
-import '../styles/signupform.css';
+import './styles/signupform.css';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -18,7 +18,7 @@ function EmailForm() {
     const username = event.currentTarget.username.value;
 
     if (email && password && confirmPassword && username && password === confirmPassword) {
-      navigate('/home', { replace: true });
+      navigate('/verify', { replace: true });
     }
   };
 

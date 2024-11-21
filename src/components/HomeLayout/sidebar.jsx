@@ -1,4 +1,4 @@
-import '../styles/sidebar.css'
+import './styles/sidebar.css'
 
 //icons
 import { GoHome } from "react-icons/go";

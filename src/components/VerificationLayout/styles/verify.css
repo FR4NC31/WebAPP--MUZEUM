@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../../../assets//fonts/Poppins-Regular.ttf');
+}
+
+.verification{
+    width: 368px;
+    height: 279px;
+    background: white;
+    margin-left: 300px;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 200px;
+    font-family: Poppins;
+    position: absolute;
+}
+
+.verify{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #958A8A;
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    background: transparent;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+input:focus{
+    outline: none;
+}
+
+.verifyText{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 35px;
+    margin-top: 90px;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.loginBtn{
+    background: #A35656;
+    color: #FEFAE0;
+    width: 316px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}

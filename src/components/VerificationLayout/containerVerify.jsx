@@ -1,11 +1,18 @@
-import React from 'react'
+import './styles/containerVerify.css'
+import myImage from "../../assets/logo1.png"
+import Verify from '../VerificationLayout/verification'
 
-function containerVerify() {
+
+function container() {
   return (
-    <div>
-
-    </div>
+    <>
+        <div className="containerVerify">
+            <img src={myImage} />
+            <h4 className='logo'>MUZEUM</h4>
+            <Verify />
+        </div>
+    </>
   )
 }
 
-export default containerVerify
+export default container

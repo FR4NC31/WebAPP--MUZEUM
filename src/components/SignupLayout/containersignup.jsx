@@ -1,4 +1,4 @@
-import '../styles/containersignup.css'
+import './styles/containersignup.css'
 import myImage from "../../assets/logo1.png"
 import { Link } from "react-router-dom";
 import Signup from '../SignupLayout/signupform'

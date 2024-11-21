@@ -1,4 +1,4 @@
-import '../styles/containerlogin.css'
+import './styles/containerlogin.css'
 import Email from './emailform'
 import myImage from "../../assets/logo1.png"
 import { Link } from "react-router-dom";
