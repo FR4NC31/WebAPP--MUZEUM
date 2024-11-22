@@ -1,0 +1,13 @@
+.containerPost{
+    background: white;
+    width: 1600px;
+    height: 770px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -320px;
+}
+
+.title-post{
+    color: black;
+    padding-left: 20px;
+}

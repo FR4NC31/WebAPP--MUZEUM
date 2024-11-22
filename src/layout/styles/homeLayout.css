@@ -9,6 +9,6 @@ body {
     background: linear-gradient( #130605, #5C0A00);
   }
 
-  .homeLayout{
+  .homeLayout, .postLayout{
     margin-right: 1900px;
   }
